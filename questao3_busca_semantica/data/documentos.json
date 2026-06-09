@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "titulo": "Listas em Python",
+    "texto": "Listas são estruturas de dados mutáveis em Python, criadas com colchetes. Permitem armazenar coleções ordenadas de itens, acessar elementos por índice e usar métodos como append, insert e pop para manipular o conteúdo."
+  },
+  {
+    "id": 2,
+    "titulo": "Dicionários em Python",
+    "texto": "Dicionários armazenam pares de chave e valor em Python. São ideais para buscas rápidas por chave, criados com chaves e acessados pela sintaxe d[chave]. Métodos como keys, values e items facilitam a iteração."
+  },
+  {
+    "id": 3,
+    "titulo": "Programação assíncrona com asyncio",
+    "texto": "O módulo asyncio permite escrever código concorrente em Python usando async e await. É útil para tarefas de entrada e saída, como requisições de rede, evitando bloqueio enquanto se espera por respostas."
+  },
+  {
+    "id": 4,
+    "titulo": "Índices em bancos de dados relacionais",
+    "texto": "Índices aceleram consultas em bancos de dados ao evitar varreduras completas de tabela. Estruturas como B-tree permitem localizar linhas rapidamente, ao custo de espaço extra e escrita um pouco mais lenta."
+  },
+  {
+    "id": 5,
+    "titulo": "Normalização de banco de dados",
+    "texto": "Normalização organiza tabelas relacionais para reduzir redundância e anomalias de atualização. As formas normais, da primeira à terceira, definem regras para dividir dados em tabelas relacionadas por chaves estrangeiras."
+  },
+  {
+    "id": 6,
+    "titulo": "Embeddings e representação vetorial de texto",
+    "texto": "Embeddings convertem texto em vetores numéricos densos que capturam significado semântico. Frases parecidas ficam próximas no espaço vetorial, o que permite medir similaridade e construir sistemas de busca semântica."
+  },
+  {
+    "id": 7,
+    "titulo": "Vector stores e busca por similaridade",
+    "texto": "Vector stores como FAISS indexam vetores para recuperar rapidamente os mais próximos de uma consulta. A similaridade de cosseno é a métrica mais comum para comparar embeddings normalizados em buscas semânticas."
+  },
+  {
+    "id": 8,
+    "titulo": "Containers com Docker",
+    "texto": "Docker empacota aplicações e dependências em containers isolados e portáteis. Um Dockerfile descreve a imagem, e os containers garantem que o software rode da mesma forma em qualquer ambiente."
+  },
+  {
+    "id": 9,
+    "titulo": "Pipelines de integração contínua",
+    "texto": "Integração contínua automatiza build, testes e validações a cada mudança de código. Ferramentas de CI executam pipelines que detectam erros cedo, mantendo o repositório sempre em estado entregável."
+  },
+  {
+    "id": 10,
+    "titulo": "APIs REST e métodos HTTP",
+    "texto": "APIs REST expõem recursos por meio de URLs e métodos HTTP como GET, POST, PUT e DELETE. Respostas costumam usar JSON, e códigos de status comunicam o resultado de cada operação ao cliente."
+  },
+  {
+    "id": 11,
+    "titulo": "Modelos de linguagem e geração de texto",
+    "texto": "Modelos de linguagem de grande porte preveem a próxima palavra a partir do contexto, gerando texto coerente. São treinados em grandes corpora e usados em chatbots, resumos e assistentes de programação."
+  },
+  {
+    "id": 12,
+    "titulo": "Tratamento de exceções em Python",
+    "texto": "Em Python, blocos try e except capturam erros em tempo de execução, evitando que o programa quebre. A cláusula finally executa código de limpeza, e é possível levantar exceções próprias com raise."
+  }
+]
