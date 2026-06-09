@@ -1,0 +1,10 @@
+# LangChain (núcleo + integração OpenAI, conforme o enunciado)
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+python-dotenv>=1.0.0
+pytest>=8.0.0
+
+# Providers alternativos (opcionais) — descomente conforme o uso:
+# langchain-groq>=0.2.0          # roda Llama 3.3 com free tier
+# langchain-anthropic>=0.2.0     # roda Claude
